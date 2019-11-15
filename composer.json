@@ -1,5 +1,5 @@
 {
-    "name": "olakunlevpn/bitcoin-naira-converter-php",
+    "name": "olakunlevpn/bitcoin_ng",
     "description": "A lightweight bitcoin to Nigerian (NGN) converter and vice versa based on current exchange rates from your chosen provider: Coinbase, Coindesk, Bitpay and etc.",
     "type": "library",
     "keywords": [
