@@ -1,6 +1,6 @@
 <?php
 
-namespace Olakunlevpn\BitcoinNairaConverter\Exception;
+namespace olakunlevpn\BitcoinNairaConverter\Exception;
 
 class UnexpectedValueException extends \UnexpectedValueException implements ExceptionInterface
 {

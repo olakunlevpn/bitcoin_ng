@@ -1,18 +1,18 @@
 <?php
 
-namespace Olakunlevpn\BitcoinNairaConverter;
+namespace olakunlevpn\BitcoinNairaConverter;
 
 use GuzzleHttp\Client;
-use Olakunlevpn\BitcoinNairaConverter\Provider\CoinbaseProvider;
-use Olakunlevpn\BitcoinNairaConverter\Provider\ProviderInterface;
-use Olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException;
+use olakunlevpn\BitcoinNairaConverter\Provider\CoinbaseProvider;
+use olakunlevpn\BitcoinNairaConverter\Provider\ProviderInterface;
+use olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException;
 
 class Converter
 {
     /**
      * Provider instance.
      *
-     * @var Olakunlevpn\BitcoinNairaConverter\Provider\ProviderInterface
+     * @var olakunlevpn\BitcoinNairaConverter\Provider\ProviderInterface
      */
     protected $provider;
 
@@ -63,7 +63,7 @@ class Converter
      * @param  float $btcAmount
      * @param  float $rate
      * @return float
-     * @throws Olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException
+     * @throws olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException
      */
     protected function computeCurrencyValue($btcAmount, $rate)
     {
@@ -108,7 +108,7 @@ class Converter
      * @param  float $amount
      * @param  float $rate
      * @return float
-     * @throws Olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException
+     * @throws olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException
      */
     protected function computeBtcValue($amount, $rate)
     {

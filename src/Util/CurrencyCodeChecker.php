@@ -1,6 +1,6 @@
 <?php
 
-namespace Olakunlevpn\BitcoinNairaConverter\Util;
+namespace olakunlevpn\BitcoinNairaConverter\Util;
 
 class CurrencyCodeChecker
 {

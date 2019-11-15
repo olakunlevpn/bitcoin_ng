@@ -1,6 +1,6 @@
 <?php
 
-use Olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException;
+use olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException;
 
 if (! function_exists('format_to_currency')) {
     /**

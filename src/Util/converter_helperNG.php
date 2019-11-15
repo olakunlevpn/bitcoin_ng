@@ -1,6 +1,6 @@
 <?php
 
-use Olakunlevpn\BitcoinNairaConverter\Converter;
+use olakunlevpn\BitcoinNairaConverter\Converter;
 
 if (! function_exists('to_currency')) {
     /**

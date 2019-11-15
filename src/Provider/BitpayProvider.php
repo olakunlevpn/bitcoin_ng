@@ -1,6 +1,6 @@
 <?php
 
-namespace Olakunlevpn\BitcoinNairaConverter\Provider;
+namespace olakunlevpn\BitcoinNairaConverter\Provider;
 
 class BitpayProvider extends AbstractProvider
 {

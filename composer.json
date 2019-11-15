@@ -1,5 +1,5 @@
 {
-    "name": "Olakunlevpn/bitcoin-naira-converter-php",
+    "name": "olakunlevpn/bitcoin-naira-converter-php",
     "description": "A simple and lightweight bitcoin to currency converter and vice versa based on current exchange rates from your chosen provider: Coinbase, Coindesk, Bitpay and etc.",
     "type": "library",
     "keywords": [
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Olakunlevpn\\BitcoinNairaConverter\\": "src/"
+            "olakunlevpn\\BitcoinNairaConverter\\": "src/"
         },
         "files": [
             "src/Util/currency_code_checker_helper.php",

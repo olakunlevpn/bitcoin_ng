@@ -1,6 +1,6 @@
 <?php
 
-use Olakunlevpn\BitcoinNairaConverter\Util\CurrencyCodeChecker;
+use olakunlevpn\BitcoinNairaConverter\Util\CurrencyCodeChecker;
 
 if (! function_exists('is_crypto_currency')) {
     /**

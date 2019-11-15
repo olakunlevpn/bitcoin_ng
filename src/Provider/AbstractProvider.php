@@ -1,14 +1,14 @@
 <?php
 
-namespace Olakunlevpn\BitcoinNairaConverter\Provider;
+namespace olakunlevpn\BitcoinNairaConverter\Provider;
 
 use GuzzleHttp\Client;
 use Illuminate\Cache\FileStore;
 use Illuminate\Cache\Repository;
 use Psr\SimpleCache\CacheInterface;
 use Illuminate\Filesystem\Filesystem;
-use Olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException;
-use Olakunlevpn\BitcoinNairaConverter\Exception\UnexpectedValueException;
+use olakunlevpn\BitcoinNairaConverter\Exception\InvalidArgumentException;
+use olakunlevpn\BitcoinNairaConverter\Exception\UnexpectedValueException;
 
 abstract class AbstractProvider implements ProviderInterface
 {
