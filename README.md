@@ -16,7 +16,7 @@ It is simple, lightweight, extensible, framework agnostic and fast.
 Lets begin by installing the library by Composer:
 
 ``` bash
-$ composer require olakunlevpn/bitcoin-naira-converter-php
+$ composer require olakunlevpn/bitcoin_ng
 ```
 
 ## Usage
